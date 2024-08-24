@@ -1,0 +1,10 @@
+[ 2024-08-24 17:16:35,664 ] 21 src.logger.custom_logging - INFO - Getting Dataframe
+[ 2024-08-24 17:16:35,679 ] 25 src.logger.custom_logging - INFO - Saving Dataframe
+[ 2024-08-24 17:16:35,679 ] 29 src.logger.custom_logging - INFO - Train test split of dataframe
+[ 2024-08-24 17:16:35,698 ] 35 src.logger.custom_logging - INFO - Saved train set and test set
+[ 2024-08-24 17:16:35,698 ] 37 src.logger.custom_logging - INFO - Data ingestion complete
+[ 2024-08-24 17:16:35,703 ] 21 src.logger.custom_logging - INFO - Data Transformation started
+[ 2024-08-24 17:16:35,703 ] 55 src.logger.custom_logging - INFO - Splitting train data into dependent and independent features
+[ 2024-08-24 17:16:35,703 ] 59 src.logger.custom_logging - INFO - Splitting test data into dependent and independent features
+[ 2024-08-24 17:16:58,975 ] 56 src.logger.custom_logging - INFO - Model Report : {'Random Forest': 0.8876404494382022, 'Decision Tree': 0.784019975031211, 'Logistic': 0.7515605493133583}
+[ 2024-08-24 17:16:58,975 ] 69 src.logger.custom_logging - INFO - best model found, Model Name is Random Forest, accuracy Score: 0.8876404494382022
